@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <span>
+            <embed src="logo.svg" class="logo">
+        </span>
+        <div class="burger" onclick="burg()">
+            <div class="b"></div>
+            <div class="b"></div>
+            <div class="b"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#bio">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+	
+    <main>
+        <embed id="bio" src="bio.svg">
+        <embed id="bio-small" src="bio-small.svg">
+        <div id="projects">
+            <h2>Projekty</h2>
+            <div class="wrapper">
+                <div class="media">
+                    <div class="layer">
+                        <p>
+                            <a href="https://mincruft.000webhostapp.com" class="fas fa-eye" style="color:black" target="_blank"></a>
+                            <a href="#" class="fab fa-github" style="color:black" target="_blank"></a>
+                        </p>
+                    </div>
+                    <img src="IT_Shop.png" id="p">
+                </div>
+                <div class="media">
+                    <div class="layer">
+                        <p>
+                            <a href="https://blotech.000webhostapp.com" class="fas fa-eye" style="color:black" target="_blank"></a>
+                            <a href="#" class="fab fa-github" style="color:black" target="_blank"></a>
+                        </p>
+                    </div>
+                    <img src="blog.png" id="p">
+                </div>
+            </div>
+        </div>
+        <div id="skills">
+            <h2>Umiejętności</h2>
+            <div class="list">
+                <ol>
+                    <li><p class="fab fa-html5">HTML5</p></li>
+                    <li><p class="fab fa-css3-alt">CSS3</p></li>
+                    <li><p class="fab fa-js">JavaScript</p></li>
+                    <li><p class="fab fa-php">PHP</p></li>
+                    <li><p class="fas fa-database">SQL</p></li>
+                    <li><p class="fab fa-python">Python</p></li>
+                    <li><p><b>C++</b></p></li>
+                </ol>
+            </div>
+        </div>
+    </main>
+
+    <script src="burger.js"></script>
+</body>
+
+</html>
