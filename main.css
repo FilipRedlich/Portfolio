@@ -54,7 +54,7 @@ a   {
     width: 75vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 10px;
 }
   
@@ -90,7 +90,7 @@ h2  {
     font-size: 36px;
 }
 #skills {
-    margin-top: -250px;
+    
     text-align: center;
     font-size: 32px;
 }
