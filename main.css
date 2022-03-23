@@ -29,11 +29,14 @@ a   {
     }
     #bio-small  {
         display: inline;
+        margin-left: -5vw;
+        width: 85vw;
     }
 }
 @media screen and (max-width: 450px) {
     #bio-small  {
-        width: 80vw;
+        margin-left: -10vw;
+        width: 95vw;
     }
 }
 #projects     {
