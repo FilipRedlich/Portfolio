@@ -4,13 +4,14 @@ nav {
 	top: 0;
 	width: 100%;
 	position: fixed;
+	z-index: 2;
 }
 .logo	{
 	float: left;
 	height: 10vh;
 	padding: 0 0 0 3vw;
 	position: absolute;
-	z-index: 2;
+	z-index: 1;
 }
 .nav-links {
 	display: flex;
