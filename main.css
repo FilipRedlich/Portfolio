@@ -39,8 +39,8 @@ a   {
         width: 95vw;
     }
 }
-#projects     {
-    padding-bottom: 10px;
+#projects,#certs     {
+    padding-bottom: 3vh;
     text-align: center;
     width: 75vw;
 }
