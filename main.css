@@ -8,7 +8,6 @@ body {
 }
 main    {
     margin: auto;
-    margin-top: 15vh;
     width: 75vw;
 }
 a   {
@@ -18,10 +17,14 @@ a   {
 }
 #bio    {
     width: 75vw;
+    padding-top: 10vh;
+    margin-bottom: -5vh;
 }
 #bio-small  {
     width: 75vw;
     display: none;
+    padding-top: 10vh;
+    margin-bottom: -5vh;
 }
 @media screen and (max-width: 768px) {
     #bio    {
@@ -40,7 +43,8 @@ a   {
     }
 }
 #projects,#certs     {
-    padding-bottom: 3vh;
+    padding-top: 10vh;
+    margin-bottom: -5vh;
     text-align: center;
     width: 75vw;
 }
@@ -93,7 +97,7 @@ h2  {
     font-size: 36px;
 }
 #skills {
-    
+    padding-top: 10vh;
     text-align: center;
     font-size: 32px;
 }
