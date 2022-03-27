@@ -100,7 +100,19 @@ h2  {
     padding-top: 10vh;
     text-align: center;
     font-size: 32px;
+    margin-bottom: 1vh;
 }
 .list ol {
     list-style-type: none;
+}
+footer {
+    height: 13vh;
+	background: #000075;
+	width: 100%;
+    text-align: center;
+}
+footer a {
+    color: lightgray;
+    font-size: 4vh;
+    margin: 1vh;
 }
