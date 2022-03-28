@@ -114,5 +114,10 @@ footer {
 footer a {
     color: lightgray;
     font-size: 4vh;
-    margin: 1vh;
+    margin-bottom: 1vh;
+}
+@media screen and (max-width: 500px) {
+    footer a {
+        font-size: 3vh;
+    }
 }
